@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from jobify-demos.astoundify.com/classic/job/user-experience-designer-lead-systems-analyst/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Nov 2017 10:03:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="../../xmlrpc.php" />
+
+	<meta name="viewport" content="initial-scale=1">
+	<meta name="viewport" content="width=device-width" />
+
+	<title>User Experience Designer &#8211; Classic</title>
+<link rel='dns-prefetch' href='http://maps.googleapis.com/' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Classic &raquo; Feed" href="../../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Classic &raquo; Comments Feed" href="../../comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/jobify-demos.astoundify.com\/classic\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/css/woocommerce-layout0226.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen0226.css?ver=3.1.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='jobify-fonts-css'  href='http://fonts.googleapis.com/css?family=Varela+Round%3Aregular%7CMontserrat%3Aregular%2C700&amp;subset=latin,hebrew' type='text/css' media='all' />
+<link rel='stylesheet' id='jobify-parent-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/themes/jobify/styled172.css?ver=20170821' type='text/css' media='all' />
+<style id='jobify-parent-inline-css' type='text/css'>
+html{background-color:##ffffff;}body,input,textarea,select,body .chosen-container-single .chosen-single span,body .chosen-container-single .chosen-single div:before{color:#797979;}a,.job_listing-clickbox:hover{color:#6d6d6d;}a:active,a:hover{color:#545454;}.site-header,.nav-menu--primary .sub-menu{background:#ffffff;}.site-title{color:blank;}.nav-menu--primary ul li.highlight > a,.nav-menu--primary ul li.login > a{border-color:#666666;}.nav-menu--primary ul li.highlight > a:hover,.nav-menu--primary ul li.login > a:hover{color:#ffffff;background-color:#666666;border-color:#666666;}.search_jobs,.search_resumes,.cluster div,.job-type,.price-option__title,.entry-header__featured-image:hover .overlay,.widget_price_filter .ui-slider-horizontal .ui-slider-range{background-color:#7dc246;}.job_filters .search_jobs .filter_by_tag a.active{color:#7dc246;}.cluster div:after,input:focus,.widget_price_filter .ui-slider .ui-slider-handle{border-color:#7dc246;}ul.job_listings .job_listing:hover,.job_position_featured,li.type-resume:hover{box-shadow:inset 5px 0 0 #7dc246;}.button,input[type=button],button,#submitcomment,#commentform input[type=submit],.widget--footer input[type=submit],.mfp-close-btn-in .mfp-close,input[name=wp_job_manager_send_application],input[name=wp_job_manager_edit_application],input[name=submit_bookmark],.add-favorite,.update-favorite,#rcp_submit,input[name=wp_job_manager_resumes_apply_with_resume],input[name=wp_job_manager_resumes_apply_with_resume_create],.wpcf7-submit,input[type=submit].ninja-forms-field,input[name=submit-job-alert],.hero-search .search_jobs>div input[type=submit],.hero-search .search_resumes>div input[type=submit]{background-color:#7dc246;border-color:transparent;color:#fff;}.button:hover,input[type=button]:hover,button:hover,.job-manager-pagination a:hover,.job-manager-pagination span:hover,.page-numbers:hover,#searchform button:hover,#searchform input[type=submit]:hover,#submitcomment:hover,#commentform input[type=submit]:hover,.page-numbers.current,.widget--footer input[type=submit]:hover,.mfp-close-btn-in .mfp-close:hover,input[name=wp_job_manager_send_application]:hover,input[name=wp_job_manager_edit_application]:hover,input[name=submit_bookmark]:hover,.add-favorite:hover,.update-favorite:hover,#rcp_submit:hover,input[name=wp_job_manager_resumes_apply_with_resume]:hover,input[name=wp_job_manager_resumes_apply_with_resume_create]:hover,.wpcf7-submit:hover,input[type=submit].ninja-forms-field:hover,input[name=submit-job-alert]:hover,.tp-caption .button:hover{background-color:transparent;color:#7dc246;border-color:#7dc246;}.button--type-inverted,.widget--home-video .button,.load_more_jobs strong,.load_more_resumes strong,.job-manager-form.wp-job-manager-bookmarks-form a.bookmark-notice,.job-manager-form.wp-job-manager-favorites-form a.favorite-notice{color:#7dc246;border-color:#7dc246;}.button--type-inverted:hover,.widget--home-video .button:hover,.load_more_jobs strong:hover,.load_more_resumes strong:hover,.job-manager-form.wp-job-manager-bookmarks-form a.bookmark-notice:hover,.job-manager-form.wp-job-manager-favorites-form a.favorite-notice:hover{background-color:#7dc246;color:#fff;}.button--type-action,.button--type-secondary:hover,.single-product #content .single_add_to_cart_button,.checkout-button,#place_order,input[type=button].application_button,.application_button_link,input[type=button].resume_contact_button{color:#7dc246;background-color:transparent;border-color:#7dc246;}.button--type-action:hover,.button--type-secondary,.single-product #content .single_add_to_cart_button:hover,.checkout-button:hover,#place_order:hover,input[type=button].application_button:hover,.application_button_link:hover,input[type=button].resume_contact_button:hover{background-color:#7dc246;color:#ffffff;border-color:#7dc246;}.button--color-white,.button--color-white.button--type-inverted:hover,.button--type-hover-white:hover{color:#797979;background-color:#ffffff;border-color:#ffffff;}.button--color-white:hover,.button--color-white.button--type-inverted,.button--type-hover-inverted-white:hover{background-color:transparent;color:#ffffff;border-color:#ffffff;}body{padding-top:110px;font-family:"Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:normal;line-height:1.5;}.footer-cta,.footer-cta a,.footer-cta tel{color:#ffffff;}.footer-cta a.button:hover{color:#7dc246 !important;}.footer-cta{background-color:#7dc246;}.widget-title--footer{color:#d1d1d1;}.widget--footer a{color:#d1d1d1;}.widget--footer{color:#d1d1d1;}.footer-widgets{background-color:#666666;}.copyright a{color:#b2b2b2;}.copyright{color:#b2b2b2;}.site-footer{background-color:#666666;}.button,input[type=button],button,#submitcomment,#commentform input[type=submit],.widget--footer input[type=submit],input[name=wp_job_manager_send_application],input[name=wp_job_manager_edit_application],input[name=submit_bookmark],#rcp_submit,input[name=wp_job_manager_resumes_apply_with_resume],input[name=wp_job_manager_resumes_apply_with_resume_create],.wpcf7-submit,input[type=submit].ninja-forms-field,input[name=submit-job-alert],.hero-search .search_jobs>div input[type=submit],.hero-search .search_resumes>div input[type=submit]{font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:bold;line-height:1.3;font-size:14px;}.entry-title{font-family:"Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:normal;line-height:1.3;}.widget-description.widget-description--home,.callout-feature-content p,.hero-search__content p{font-family:"Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:normal;line-height:1.5;}.widget-title.widget-title--home,.callout-feature-title,.hero-search__title{font-family:"Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:normal;line-height:1.3;}.entry-content .rcp_form input[type=email],.entry-content .rcp_form input[type=password],.entry-content .rcp_form input[type=text],.jobify-input,input[type=email],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],select,textarea,body .chosen-container-single .chosen-single span,body .chosen-container .chosen-results li.active-result{font-family:"Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:normal;line-height:1;font-size:16px;}.widget-title{font-family:"Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:normal;line-height:1.3;}.logged-in .modal .post-99991207 .entry-content{padding:30px;}.woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale{background-color:#7dc246;}.woocommerce .price ins,.woocommerce ul.product_list_widget ins{background-color:#7dc246;}.single-product #content .woocommerce-tabs .tabs li.active a,.woocommerce-MyAccount-navigation-link.is-active a{color:#7dc246;border-bottom:2px solid #7dc246;}
+@media screen and (min-width: 1200px){.nav-menu--primary ul li a,.nav-menu--primary li a,.nav-menu--primary ul li a:hover,.nav-menu--primary li a:hover,.primary-menu-toggle,.searchform--header__submit,.searchform--header__input{color:#666666;}body{font-size:16px;}.entry-title{font-size:38px;}.widget-description.widget-description--home{font-size:16px;}.widget-title.widget-title--home{font-size:36px;}.page-header{font-family:"Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:normal;font-size:34px;line-height:1.3;}.widget-title{font-size:22px;}}
+</style>
+<link rel='stylesheet' id='jobify-child-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/themes/jobify-child/style7bcd.css?ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sharedaddy-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/jetpack-sharing/sharedaddy/sharing5219.css?ver=3.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/jetpack-sharing/genericons/genericons/genericons128b.css?ver=3.1' type='text/css' media='all' />
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3&amp;libraries=geometry%2Cplaces&amp;language=en&amp;key=AIzaSyBnpq54szZslXDqXOIAr8OEM3PmNZgaL4o&amp;ver=4.8.3'></script>
+<link rel='https://api.w.org/' href='../../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Graphic/Web Designer' href='../graphicweb-designer/index.html' />
+<link rel='next' title='Front-End Engineer' href='../front-end-engineer/index.html' />
+<meta name="generator" content="WordPress 4.8.3" />
+<meta name="generator" content="WooCommerce 3.1.2" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='../../indexc4f7.html?p=7' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embede1ac.json?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2Fjob%2Fuser-experience-designer-lead-systems-analyst%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embedb53d?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2Fjob%2Fuser-experience-designer-lead-systems-analyst%2F&amp;format=xml" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style id='job_manager_colors'>
+.job-type.term-5, .job-type.freelance { background-color: #ff5a5f; } 
+.job-type.term-2, .job-type.full-time { background-color: #5bbc2e; } 
+.job-type.term-6, .job-type.internship { background-color: #00b2a9; } 
+.job-type.term-3, .job-type.part-time { background-color: #735fee; } 
+.job-type.term-4, .job-type.temporary { background-color: ; } 
+</style>
+		<style type="text/css">
+				.site-title span {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+				.site-branding,
+		.site-description,
+		.site-branding:hover {
+			color: #fff;
+			text-decoration: none;
+		}
+		</style>
+		<link rel="icon" href="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/cropped-site-icon-classic-32x32.png" sizes="32x32" />
+<link rel="icon" href="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/cropped-site-icon-classic-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/cropped-site-icon-classic-180x180.png" />
+<meta name="msapplication-TileImage" content="https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/cropped-site-icon-classic-270x270.png" />
+</head>
+
+<body class="job_listing-template-default single single-job_listing postid-7 single-listing-style-side single-resume-style-side wp-job-manager-categories-enabled wp-job-manager-apply-email wp-job-manager ninjaforms-contact-job-form wp-job-manager-contact-listing woocommerce testimonials jetpack custom-font nav-menu-break-large fixed-header jobify-child">
+
+	<div id="page" class="hfeed site">
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="container">
+
+				<div class="site-header__wrap">
+
+					<a href="../../index.html" title="Classic" rel="home" class="site-branding">
+												<h2 class="site-title">
+															<img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/classic-logo-new.svg" width="" height="" alt="" />
+							
+							<span>Classic</span>
+						</h2>
+						<h2 class="site-description">Everything You Need to Build a Professional Job Board</h2>
+					</a>
+
+					<nav id="site-navigation" class="site-primary-navigation">
+						<a href="#site-navigation" class="js-primary-menu-toggle primary-menu-toggle primary-menu-toggle--close">Close</a>
+
+						<form role="search" method="get" id="searchform" class="searchform searchform--header" action="https://jobify-demos.astoundify.com/classic/">
+	<label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" class="searchform__input searchform--header__input" placeholder="Keywords..." />
+	<button type="submit" id="searchsubmit" class="searchform__submit searchform--header__submit"><span class="screen-reader-text">Search</button>
+</form>
+<div class="nav-menu nav-menu--primary"><ul id="menu-main-menu" class="nav-menu nav-menu--primary"><li id="menu-item-99991208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-99991208"><a href="../../find-a-job/index.html">Find A Job</a>
+<ul  class="sub-menu">
+	<li id="menu-item-99991180" class="menu-item menu-item-type-taxonomy menu-item-object-job_listing_region menu-item-99991180"><a href="../../job-region/ontario/index.html">Ontario</a></li>
+	<li id="menu-item-99991181" class="menu-item menu-item-type-taxonomy menu-item-object-job_listing_region menu-item-99991181"><a href="../../job-region/kansas/index.html">Kansas</a></li>
+	<li id="menu-item-99991182" class="menu-item menu-item-type-taxonomy menu-item-object-job_listing_region menu-item-99991182"><a href="../../job-region/san-francisco/index.html">San Francisco</a></li>
+	<li id="menu-item-99991183" class="menu-item menu-item-type-taxonomy menu-item-object-job_listing_region menu-item-99991183"><a href="../../job-region/palo-alto/index.html">Palo Alto</a></li>
+	<li id="menu-item-99991184" class="menu-item menu-item-type-taxonomy menu-item-object-job_listing_region menu-item-99991184"><a href="../../job-region/daly-city/index.html">Daly City</a></li>
+	<li id="menu-item-99991185" class="menu-item menu-item-type-taxonomy menu-item-object-job_listing_region current-job_listing-ancestor current-menu-parent current-job_listing-parent menu-item-99991185"><a href="../../job-region/mountain-view/index.html">Mountain View</a></li>
+	<li id="menu-item-99991186" class="menu-item menu-item-type-taxonomy menu-item-object-job_listing_region menu-item-99991186"><a href="../../job-region/sacramento/index.html">Sacramento</a></li>
+	<li id="menu-item-99991187" class="menu-item menu-item-type-taxonomy menu-item-object-job_listing_region menu-item-99991187"><a href="../../job-region/santa-rosa/index.html">Santa Rosa</a></li>
+</ul>
+</li>
+<li id="menu-item-99991220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991220"><a href="../../post-a-job/index.html">Post A Job</a></li>
+<li id="menu-item-99991188" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-99991188"><a href="#">Pages</a>
+<ul  class="sub-menu">
+	<li id="menu-item-99991345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991345"><a href="../../pricing/index.html">Pricing</a></li>
+	<li id="menu-item-99991212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991212"><a href="../../companies/index.html">Companies</a></li>
+	<li id="menu-item-99991218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991218"><a href="../../testimonials/index.html">Testimonials</a></li>
+	<li id="menu-item-99991214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991214"><a href="../../frequently-asked-questions/index.html">FAQ</a></li>
+	<li id="menu-item-99991215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991215"><a href="../../manage-jobs/index.html">Manage Jobs</a></li>
+	<li id="menu-item-99991216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991216"><a href="../../privacy-policy/index.html">Privacy Policy</a></li>
+	<li id="menu-item-99991217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991217"><a href="../../terms-and-conditions/index.html">Terms and Conditions</a></li>
+</ul>
+</li>
+<li id="menu-item-99991221" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-99991221"><a href="../../blog/index.html">Blog</a></li>
+<li id="menu-item-99991211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-99991211"><a href="../../shop/index.html">Shop</a>
+<ul  class="sub-menu">
+	<li id="menu-item-99991210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991210"><a href="../../cart/index.html">Cart</a></li>
+	<li id="menu-item-99991209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991209"><a href="../../checkout/index.html">Checkout</a></li>
+</ul>
+</li>
+<li id="menu-item-99991219" class="register menu-item menu-item-type-post_type menu-item-object-page menu-item-99991219"><a href="../../signup/index.html" class="popup-trigger-ajax">Sign Up</a></li>
+<li id="menu-item-99991213" class="login menu-item menu-item-type-post_type menu-item-object-page menu-item-99991213"><a href="../../my-account/index.html" class="popup-trigger-ajax">Login</a></li>
+</ul></div>					</nav>
+				</div>
+
+				<a href="#site-navigation" class="js-primary-menu-toggle primary-menu-toggle primary-menu-toggle--open"><span class="screen-reader-text">Menu</span></a>
+			</div>
+		</header><!-- #masthead -->
+
+		<div id="main" class="site-main">
+
+	
+		
+<div class="single_job_listing">
+
+	<div class="page-header">
+		<h1 class="page-title">
+			User Experience Designer		</h1>
+		<h3 class="page-subtitle">
+			
+<ul class="job-listing-meta meta">
+	
+			<li class="job-type full-time">Full Time</li>
+	
+	<li class="location"><a class="google_map_link" href="http://maps.google.com/maps?q=Mountain+View&amp;zoom=14&amp;size=512x512&amp;maptype=roadmap&amp;sensor=false" target="_blank">Mountain View, California</a></li>
+
+	<li class="date-posted">Posted 4 years ago</li>
+
+	
+	<li class="job-company">
+			<a href="../../company/Fitbit/index.html" target="_blank">Fitbit</a>
+	</li>
+</ul>
+
+		</h3>
+	</div>
+
+	<div id="content" class="container content-area" role="main">
+
+		
+			
+			<div class="job-overview-content row">
+				<div class="job_listing-description job-overview col-md-10 col-sm-12">
+					<h2 class="widget-title widget-title--job_listing-top job-overview-title">Overview</h2>
+					<h3><img class="alignnone size-full wp-image-99991317" src="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2014/03/hero-job-image.jpg" alt="hero-job-image" width="1110" height="342" /></h3>
+<h4>Company Description</h4>
+<p>Company is a 2016 Iowa City-born start-up that develops consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
+<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.</p>
+<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est.</p>
+<h3>Job Description</h3>
+<p>As Marketing Graphic Designer, your primary responsibility is to assist the Marketing and Social Media team with a variety of graphic design tasks ranging from email, ads, print, and website design. You will be responsible to take a set of instructions, or a stated problem, and produce clean, modern design assets that are within the brand requirements of our company and our products. As part of the process, this person will collaborate with members of the marketing, design and product teams to gain a clear understanding of the campaign expectations, target audience, and product positioning.</p>
+<p>The right candidate will possess video production and editing skills. You will work with the marketing and social media team in the video production cycle from pre-production planning through post-production editing (video training available).</p>
+<p>Design work will be completed in a timely fashion, largely unsupervised short of regular design feedback, and meet the stated requirements of the requestor/stakeholder.</p>
+<p>For website design, a basic level of coding is required in order to turn designs into live websites.</p>
+<h4>Key Objectives</h4>
+<ul>
+<li>Take a set of instructions or a stated problem and produce clean, modern design assets that are within the brand requirements of our company and our products.</li>
+</ul>
+<h4>Primary Areas of Accountability</h4>
+<ul>
+<li>Collaborate with the Marketing Manager to deliver effective, direct response e-mail designs for marketing campaigns</li>
+<li>Work with stakeholders from sales and marketing to design print materials, including sales brochures and mailers</li>
+<li>Work closely with the CMO and in-house design team, taking direction on our new website design for corporate and product sites, including writing HTML and CSS</li>
+<li>Work closely with the CMO and in-house design team to compile the corporate and product family branding style guides (icons, color palettes, etc)</li>
+<li>Develop design assets for new product launches, including screenshots and icons for app store listings</li>
+<li>Design on request for various needs across the company, including graphics for e-books, online stores, social accounts, presentations, ads, collateral, etc.</li>
+</ul>
+<h4>Required Knowledge, Skills, and Abilities</h4>
+<ul>
+<li>Ability to write code &#8211; HTML &amp; CSS (SCSS flavor of SASS preferred when writing CSS)</li>
+<li>Proficient in Photoshop, Illustrator, bonus points for familiarity with Sketch (Sketch is our preferred concepting tool)</li>
+<li>Cross-browser and platform testing as standard practice</li>
+<li>Experience using Invision a plus</li>
+<li>Experience in video production a plus or, at a minimum, a willingness to learn</li>
+</ul>
+<h4>Education + Experience</h4>
+<ul>
+<li>Advanced degree or equivalent experience in graphic and web design</li>
+<li>3 or more years of professional design experience</li>
+<li>Direct response email experience</li>
+<li>Ecommerce website design experience</li>
+<li>Familiarity with mobile and web apps preferred</li>
+<li>Excellent communication skills, most notably a demonstrated ability to solicit and address creative and design feedback</li>
+<li>Must be able to work under pressure and meet deadlines while maintaining a positive attitude and providing exemplary customer service</li>
+<li>Ability to work independently and to carry out assignments to completion within parameters of instructions given, prescribed routines, and standard accepted practices</li>
+</ul>
+												<div class="job_application application">
+		
+		
+			<input type="button" class="application_button button" value="Apply for job" />
+
+			<div class="application_details">
+					<div id="ninja_forms_form_1_cont" class="ninja-forms-cont">
+		<div id="ninja_forms_form_1_wrap" class="ninja-forms-form-wrap">
+	<div id="ninja_forms_form_1_response_msg" style="" class="ninja-forms-response-msg "></div>	<form id="ninja_forms_form_1" enctype="multipart/form-data" method="post" name="" action="https://jobify-demos.astoundify.com/classic/wp-admin/admin-ajax.php?action=ninja_forms_ajax_submit" class="ninja-forms-form">
+
+	<input type="hidden" id="_wpnonce" name="_wpnonce" value="f52f6f1806" /><input type="hidden" name="_wp_http_referer" value="/classic/job/user-experience-designer-lead-systems-analyst/" />	<input type="hidden" name="_ninja_forms_display_submit" value="1">
+	<input type="hidden" name="_form_id"  id="_form_id" value="1">
+		<div class="hp-wrap">
+		<label>If you are a human and are seeing this field, please leave it blank.			<input type="text" value="" name="_I4G1u">
+			<input type="hidden" value="_I4G1u" name="_hp_name">
+		</label>
+	</div>
+		<div id="ninja_forms_form_1_all_fields_wrap" class="ninja-forms-all-fields-wrap">
+			<div class="ninja-forms-required-items">Fields marked with an <span class="ninja-forms-req-symbol">*</span> are required</div>
+								<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_1_div_wrap" data-visible="1">
+							<input type="hidden" id="ninja_forms_field_1_type" value="text">
+		<label for="ninja_forms_field_1" id="ninja_forms_field_1_label" class="">Name <span class='ninja-forms-req-symbol'><strong>*</strong></span>				</label>
+			<input id="ninja_forms_field_1" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="" name="ninja_forms_field_1" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="1"   />
+		<div id="ninja_forms_field_1_error" style="display:none;" class="ninja-forms-field-error">
+		</div>
+							</div>
+												<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_2_div_wrap" data-visible="1">
+							<input type="hidden" id="ninja_forms_field_2_type" value="text">
+		<label for="ninja_forms_field_2" id="ninja_forms_field_2_label" class="">Email <span class='ninja-forms-req-symbol'><strong>*</strong></span>				</label>
+			<input id="ninja_forms_field_2" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="" name="ninja_forms_field_2" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req email " value="" rel="2"   />
+		<div id="ninja_forms_field_2_error" style="display:none;" class="ninja-forms-field-error">
+		</div>
+							</div>
+												<div class="field-wrap textarea-wrap label-above"  id="ninja_forms_field_3_div_wrap" data-visible="1">
+							<input type="hidden" id="ninja_forms_field_3_type" value="textarea">
+		<label for="ninja_forms_field_3" id="ninja_forms_field_3_label" class="">Message <span class='ninja-forms-req-symbol'><strong>*</strong></span>				<img class='ninja-forms-help-text' src="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/ninja-forms/deprecated/images/question-ico.gif" title="Your cover letter/message that will be sent to the employer." alt="Help Text">
+			</label>
+				<textarea name="ninja_forms_field_3" id="ninja_forms_field_3" class="ninja-forms-field  ninja-forms-req" rel="3" data-input-limit="" data-input-limit-type="char" data-input-limit-msg=""></textarea>
+			<div id="ninja_forms_field_3_error" style="display:none;" class="ninja-forms-field-error">
+		</div>
+							</div>
+												<div class="field-wrap submit-wrap label-above"  id="ninja_forms_field_4_div_wrap" data-visible="1">
+							<input type="hidden" id="ninja_forms_field_4_type" value="submit">
+	<div id="nf_submit_1">
+		<input type="submit" name="_ninja_forms_field_4" class="ninja-forms-field " id="ninja_forms_field_4" value="Submit Application" rel="4" >
+	</div>
+	<div id="nf_processing_1" style="display:none;">
+		<input type="submit" name="_ninja_forms_field_4" class="ninja-forms-field " id="ninja_forms_field_4" value="Processing" rel="4" disabled>
+	</div>
+		<div id="ninja_forms_field_4_error" style="display:none;" class="ninja-forms-field-error">
+		</div>
+							</div>
+							</div>
+		</form>
+		</div>
+		</div>
+				</div>
+
+		
+			</div>
+									</div>
+
+				
+				
+
+<div class="job-meta col-md-2 col-sm-6 col-xs-12">
+
+	
+	
+		<aside class="widget widget--job_listing"><a href="../../company/Fitbit/index.html" target="_blank"><img class="company_logo" src="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/company-logo-fitbit.jpg" alt="Fitbit" /></a></aside><aside class="widget widget--job_listing"><div class="job-type full-time term-2">Full Time</div></aside><aside class="widget widget--job_listing">	<div class="job_application application">
+		
+		
+			<input type="button" class="application_button button" value="Apply for job" />
+
+			<div class="application_details">
+					<div id="ninja_forms_form_1_cont" class="ninja-forms-cont">
+		<div id="ninja_forms_form_1_wrap" class="ninja-forms-form-wrap">
+	<div id="ninja_forms_form_1_response_msg" style="" class="ninja-forms-response-msg "></div>	<form id="ninja_forms_form_1" enctype="multipart/form-data" method="post" name="" action="https://jobify-demos.astoundify.com/classic/wp-admin/admin-ajax.php?action=ninja_forms_ajax_submit" class="ninja-forms-form">
+
+	<input type="hidden" id="_wpnonce" name="_wpnonce" value="f52f6f1806" /><input type="hidden" name="_wp_http_referer" value="/classic/job/user-experience-designer-lead-systems-analyst/" />	<input type="hidden" name="_ninja_forms_display_submit" value="1">
+	<input type="hidden" name="_form_id"  id="_form_id" value="1">
+		<div class="hp-wrap">
+		<label>If you are a human and are seeing this field, please leave it blank.			<input type="text" value="" name="_5Vpzi">
+			<input type="hidden" value="_5Vpzi" name="_hp_name">
+		</label>
+	</div>
+		<div id="ninja_forms_form_1_all_fields_wrap" class="ninja-forms-all-fields-wrap">
+			<div class="ninja-forms-required-items">Fields marked with an <span class="ninja-forms-req-symbol">*</span> are required</div>
+								<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_1_div_wrap" data-visible="1">
+							<input type="hidden" id="ninja_forms_field_1_type" value="text">
+		<label for="ninja_forms_field_1" id="ninja_forms_field_1_label" class="">Name <span class='ninja-forms-req-symbol'><strong>*</strong></span>				</label>
+			<input id="ninja_forms_field_1" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="" name="ninja_forms_field_1" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="1"   />
+		<div id="ninja_forms_field_1_error" style="display:none;" class="ninja-forms-field-error">
+		</div>
+							</div>
+												<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_2_div_wrap" data-visible="1">
+							<input type="hidden" id="ninja_forms_field_2_type" value="text">
+		<label for="ninja_forms_field_2" id="ninja_forms_field_2_label" class="">Email <span class='ninja-forms-req-symbol'><strong>*</strong></span>				</label>
+			<input id="ninja_forms_field_2" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="" name="ninja_forms_field_2" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req email " value="" rel="2"   />
+		<div id="ninja_forms_field_2_error" style="display:none;" class="ninja-forms-field-error">
+		</div>
+							</div>
+												<div class="field-wrap textarea-wrap label-above"  id="ninja_forms_field_3_div_wrap" data-visible="1">
+							<input type="hidden" id="ninja_forms_field_3_type" value="textarea">
+		<label for="ninja_forms_field_3" id="ninja_forms_field_3_label" class="">Message <span class='ninja-forms-req-symbol'><strong>*</strong></span>				<img class='ninja-forms-help-text' src="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/ninja-forms/deprecated/images/question-ico.gif" title="Your cover letter/message that will be sent to the employer." alt="Help Text">
+			</label>
+				<textarea name="ninja_forms_field_3" id="ninja_forms_field_3" class="ninja-forms-field  ninja-forms-req" rel="3" data-input-limit="" data-input-limit-type="char" data-input-limit-msg=""></textarea>
+			<div id="ninja_forms_field_3_error" style="display:none;" class="ninja-forms-field-error">
+		</div>
+							</div>
+												<div class="field-wrap submit-wrap label-above"  id="ninja_forms_field_4_div_wrap" data-visible="1">
+							<input type="hidden" id="ninja_forms_field_4_type" value="submit">
+	<div id="nf_submit_1">
+		<input type="submit" name="_ninja_forms_field_4" class="ninja-forms-field " id="ninja_forms_field_4" value="Submit Application" rel="4" >
+	</div>
+	<div id="nf_processing_1" style="display:none;">
+		<input type="submit" name="_ninja_forms_field_4" class="ninja-forms-field " id="ninja_forms_field_4" value="Processing" rel="4" disabled>
+	</div>
+		<div id="ninja_forms_field_4_error" style="display:none;" class="ninja-forms-field-error">
+		</div>
+							</div>
+							</div>
+		</form>
+		</div>
+		</div>
+				</div>
+
+		
+			</div>
+</aside><aside class="widget widget--job_listing"><h3 class="widget-title widget-title--job_listing">Company Social</h3>
+<ul class="job_listing-company-social company-social">
+	
+	<li><a href="https://www.fitbit.com/" target="_blank" class="job_listing-website">
+		Website	</a></li>
+	
+		<li><a href="http://fitbit/" target="_blank" class="job_listing-twitter">
+		Twitter	</a></li>
+	
+		<li><a href="https://www.facebook.com/fitbit" target="_blank" class="job_listing-facebook">
+		Facebook	</a></li>
+	</ul>
+
+</aside><aside class="widget widget--job_listing"><div class="job_listing-categories"><a href="../../job-category/design/index.html" class="job-category">Design</a><a href="../../job-category/developement/index.html" class="job-category">Developement</a></div></aside>
+	
+	
+</div>
+
+			</div>
+
+			
+			</div>
+
+	
+<div class="related-jobs container">
+
+	<h3 class="widget-title widget--title-job_listing-top">Related Jobs</h2>
+
+	<ul class="job_listings related">
+
+		
+			<li id="job_listing-3249" class="job_listing job-type-freelance post-3249 type-job_listing status-publish has-post-thumbnail hentry job_listing_region-santa-rosa job_listing_category-design job_listing_category-developement job_listing_type-freelance" data-longitude="-122.7140548" data-latitude="38.440429" data-title="UX Designer at Aol." data-href="../ux-designer/index.html">
+	<a href="../ux-designer/index.html" class="job_listing-clickbox"></a>
+
+	<div class="job_listing-logo">
+		<img class="company_logo" src="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2014/03/company-logo-aol-150x150.jpg" alt="Aol." />	</div><div class="job_listing-about">
+
+		<div class="job_listing-position job_listing__column">
+			<h3 class="job_listing-title">UX Designer</h3>
+
+			<div class="job_listing-company">
+				<strong>Aol.</strong> 				<span class="job_listing-company-tagline">Smile, you&#039;re designed to.</span>			</div>
+		</div>
+
+		<div class="job_listing-location job_listing__column">
+			<a class="google_map_link" href="http://maps.google.com/maps?q=Santa+Rosa&amp;zoom=14&amp;size=512x512&amp;maptype=roadmap&amp;sensor=false" target="_blank">Santa Rosa, California</a>		</div>
+
+		<ul class="job_listing-meta job_listing__column">
+			
+							<li class="job_listing-type job-type freelance">Freelance</li>
+			
+			<li class="job_listing-date">Posted 4 years ago</li>
+
+					</ul>
+
+	</div>
+</li>
+
+		
+			<li id="job_listing-3358" class="job_listing job-type-full-time post-3358 type-job_listing status-publish has-post-thumbnail hentry job_listing_region-kansas job_listing_category-design job_listing_type-full-time" data-longitude="-94.9224637" data-latitude="39.3111112" data-title="Interactive Designer at Instagram" data-href="../interactive-designer-2/index.html">
+	<a href="../interactive-designer-2/index.html" class="job_listing-clickbox"></a>
+
+	<div class="job_listing-logo">
+		<img class="company_logo" src="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2013/03/company-logo-instagram-150x150.jpg" alt="Instagram" />	</div><div class="job_listing-about">
+
+		<div class="job_listing-position job_listing__column">
+			<h3 class="job_listing-title">Interactive Designer</h3>
+
+			<div class="job_listing-company">
+				<strong>Instagram</strong> 							</div>
+		</div>
+
+		<div class="job_listing-location job_listing__column">
+			<a class="google_map_link" href="http://maps.google.com/maps?q=Kansas&amp;zoom=14&amp;size=512x512&amp;maptype=roadmap&amp;sensor=false" target="_blank">Leavenworth, Kansas</a>		</div>
+
+		<ul class="job_listing-meta job_listing__column">
+			
+							<li class="job_listing-type job-type full-time">Full Time</li>
+			
+			<li class="job_listing-date">Posted 5 years ago</li>
+
+					</ul>
+
+	</div>
+</li>
+
+		
+			<li id="job_listing-9" class="job_listing job-type-part-time post-9 type-job_listing status-publish has-post-thumbnail hentry job_listing_region-san-francisco job_listing_category-design job_listing_category-developement job_listing_type-part-time" data-longitude="-122.4863492" data-latitude="37.7467314" data-title="Design Technologist at Dolby Laboratories" data-href="../design-technologist-shopping-innovation/index.html">
+	<a href="../design-technologist-shopping-innovation/index.html" class="job_listing-clickbox"></a>
+
+	<div class="job_listing-logo">
+		<img class="company_logo" src="../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/company-logo-dolby-150x150.jpg" alt="Dolby Laboratories" />	</div><div class="job_listing-about">
+
+		<div class="job_listing-position job_listing__column">
+			<h3 class="job_listing-title">Design Technologist</h3>
+
+			<div class="job_listing-company">
+				<strong>Dolby Laboratories</strong> 							</div>
+		</div>
+
+		<div class="job_listing-location job_listing__column">
+			<a class="google_map_link" href="http://maps.google.com/maps?q=San+Francisco&amp;zoom=14&amp;size=512x512&amp;maptype=roadmap&amp;sensor=false" target="_blank">San Francisco, California</a>		</div>
+
+		<ul class="job_listing-meta job_listing__column">
+			
+							<li class="job_listing-type job-type part-time">Part Time</li>
+			
+			<li class="job_listing-date">Posted 4 years ago</li>
+
+					</ul>
+
+	</div>
+</li>
+
+		
+	</ul>
+
+</div>
+
+
+</div>
+
+	
+
+		</div><!-- #main -->
+
+				<div class="footer-cta">
+			<div class="container">
+				<h2>Got a question?</h2>
+<p>We're here to help. Check out our FAQs, send us an email or call us at 1 (800) 555-5555</p>
+			</div>
+		</div>
+		
+		<footer id="colophon" class="site-footer" role="contentinfo">
+						<div class="footer-widgets">
+				<div class="container">
+					<div class="row">
+						 
+						<div class="col-xs-12 col-md-6 col-lg-3">
+							<aside id="text-1" class="widget widget--footer widget_text">			<div class="textwidget"><embed src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/classic-logo-footer.svg" type="image/svg+xml" />
+<br></br>
+
+Job Searching Just Got Easy. Use Jobify to run a hiring site and earn money in the process!</div>
+		</aside>						</div>
+						 
+						<div class="col-xs-12 col-md-6 col-lg-3">
+							<aside id="pages-1" class="widget widget--footer widget_pages"><h3 class="widget-title widget-title--footer">Site Map</h3>		<ul>
+			<li class="page_item page-item-703 current_page_parent"><a href="../../blog/index.html">Blog</a></li>
+<li class="page_item page-item-2452"><a href="../../cart/index.html">Cart</a></li>
+<li class="page_item page-item-2453"><a href="../../checkout/index.html">Checkout</a></li>
+<li class="page_item page-item-2064"><a href="../../companies/index.html">Companies</a></li>
+<li class="page_item page-item-1948"><a href="../../frequently-asked-questions/index.html">FAQ</a></li>
+<li class="page_item page-item-3940"><a href="../../find-a-job/index.html">Find A Job</a></li>
+<li class="page_item page-item-25"><a href="../../index.html">Home</a></li>
+<li class="page_item page-item-2454"><a href="../../my-account/index.html">Login</a></li>
+<li class="page_item page-item-1931"><a href="../../manage-jobs/index.html">Manage Jobs</a></li>
+<li class="page_item page-item-99991207"><a href="../../account/index.html">My Account</a></li>
+<li class="page_item page-item-14"><a href="../../post-a-job/index.html">Post A Job</a></li>
+<li class="page_item page-item-99991283"><a href="../../pricing/index.html">Pricing</a></li>
+<li class="page_item page-item-1762"><a href="../../privacy-policy/index.html">Privacy Policy</a></li>
+<li class="page_item page-item-2"><a href="../../sample-page/index.html">Sample Page</a></li>
+<li class="page_item page-item-2451"><a href="../../shop/index.html">Shop</a></li>
+<li class="page_item page-item-1673"><a href="../../signup/index.html">Sign Up</a></li>
+<li class="page_item page-item-1760"><a href="../../terms-and-conditions/index.html">Terms and Conditions</a></li>
+<li class="page_item page-item-1719"><a href="../../testimonials/index.html">Testimonials</a></li>
+		</ul>
+		</aside>						</div>
+						 
+						<div class="col-xs-12 col-md-6 col-lg-3">
+									<aside id="recent-posts-3" class="widget widget--footer widget_recent_entries">		<h3 class="widget-title widget-title--footer">Recent News Articles</h3>		<ul>
+					<li>
+				<a href="../../2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/index.html">The Best (and Worst) Canadian Merchant Account Providers</a>
+							<span class="post-date">March 29, 2016</span>
+						</li>
+					<li>
+				<a href="../../2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/index.html">Do you have a job that the average person doesn&#8217;t even know exists?</a>
+							<span class="post-date">March 22, 2016</span>
+						</li>
+					<li>
+				<a href="../../2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/index.html">DigitalOcean launches first Canadian data centre in Toronto</a>
+							<span class="post-date">February 22, 2016</span>
+						</li>
+				</ul>
+		</aside>								</div>
+						 
+						<div class="col-xs-12 col-md-6 col-lg-3">
+							<aside id="text-2" class="widget widget--footer widget_text"><h3 class="widget-title widget-title--footer">Jobify Offices</h3>			<div class="textwidget">Jobify Inc.
+555 Madison Avenue, Suite F-2
+Manhattan, New York 10282
+<br></br>
+Jobify Inc Canada.
+545 Younge St, Suite 11
+Toronto, Ontario M4K 6F4</div>
+		</aside>						</div>
+											</div>
+				</div>
+			</div>
+			
+			<div class="copyright">
+				<div class="container">
+					<div class="site-info">
+						&copy; 2017 Classic &mdash; All Rights Reserved					</div><!-- .site-info -->
+
+					<div class="footer-social"><a href="http://facebook.com/astoundify"><span class="screen-reader-text">Facebook</span></a>
+<a href="http://twitter.com/astoundify"><span class="screen-reader-text">Twitter</span></a>
+<a href="https://plus.google.com/"><span class="screen-reader-text">Google Plus</span></a>
+<a href="http://instagram.com/"><span class="screen-reader-text">Instagram</span></a>
+<a href="https://pinterest.com/"><span class="screen-reader-text">Pinterest</span></a>
+<a href="https://vimeo.com/astoundify"><span class="screen-reader-text">Vimeo</span></a>
+<a href="http://www.linkedin.com/"><span class="screen-reader-text">Linkedin</span></a>
+</div>
+					<a href="#page" class="btt "><span class="screen-reader-text">Back to Top</span></a>
+				</div>
+			</div>
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<div id="ajax-response"></div>
+
+	<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"JobPosting","datePosted":"2013-06-12T16:02:03+00:00","title":"User Experience Designer","description":"<h3><img class=\"alignnone size-full wp-image-99991317\" src=\"\/classic\/wp-content\/uploads\/sites\/2\/2014\/03\/hero-job-image.jpg\" alt=\"hero-job-image\" width=\"1110\" height=\"342\" \/><\/h3>\n<h4>Company Description<\/h4>\n<p>Company is a 2016 Iowa City-born start-up that develops consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.<\/p>\n<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.<\/p>\n<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.<\/p>\n<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est.<\/p>\n<h3>Job Description<\/h3>\n<p>As Marketing Graphic Designer, your primary responsibility is to assist the Marketing and Social Media team with a variety of graphic design tasks ranging from email, ads, print, and website design. You will be responsible to take a set of instructions, or a stated problem, and produce clean, modern design assets that are within the brand requirements of our company and our products. As part of the process, this person will collaborate with members of the marketing, design and product teams to gain a clear understanding of the campaign expectations, target audience, and product positioning.<\/p>\n<p>The right candidate will possess video production and editing skills. You will work with the marketing and social media team in the video production cycle from pre-production planning through post-production editing (video training available).<\/p>\n<p>Design work will be completed in a timely fashion, largely unsupervised short of regular design feedback, and meet the stated requirements of the requestor\/stakeholder.<\/p>\n<p>For website design, a basic level of coding is required in order to turn designs into live websites.<\/p>\n<h4>Key Objectives<\/h4>\n<ul>\n<li>Take a set of instructions or a stated problem and produce clean, modern design assets that are within the brand requirements of our company and our products.<\/li>\n<\/ul>\n<h4>Primary Areas of Accountability<\/h4>\n<ul>\n<li>Collaborate with the Marketing Manager to deliver effective, direct response e-mail designs for marketing campaigns<\/li>\n<li>Work with stakeholders from sales and marketing to design print materials, including sales brochures and mailers<\/li>\n<li>Work closely with the CMO and in-house design team, taking direction on our new website design for corporate and product sites, including writing HTML and CSS<\/li>\n<li>Work closely with the CMO and in-house design team to compile the corporate and product family branding style guides (icons, color palettes, etc)<\/li>\n<li>Develop design assets for new product launches, including screenshots and icons for app store listings<\/li>\n<li>Design on request for various needs across the company, including graphics for e-books, online stores, social accounts, presentations, ads, collateral, etc.<\/li>\n<\/ul>\n<h4>Required Knowledge, Skills, and Abilities<\/h4>\n<ul>\n<li>Ability to write code &#8211; HTML &amp; CSS (SCSS flavor of SASS preferred when writing CSS)<\/li>\n<li>Proficient in Photoshop, Illustrator, bonus points for familiarity with Sketch (Sketch is our preferred concepting tool)<\/li>\n<li>Cross-browser and platform testing as standard practice<\/li>\n<li>Experience using Invision a plus<\/li>\n<li>Experience in video production a plus or, at a minimum, a willingness to learn<\/li>\n<\/ul>\n<h4>Education + Experience<\/h4>\n<ul>\n<li>Advanced degree or equivalent experience in graphic and web design<\/li>\n<li>3 or more years of professional design experience<\/li>\n<li>Direct response email experience<\/li>\n<li>Ecommerce website design experience<\/li>\n<li>Familiarity with mobile and web apps preferred<\/li>\n<li>Excellent communication skills, most notably a demonstrated ability to solicit and address creative and design feedback<\/li>\n<li>Must be able to work under pressure and meet deadlines while maintaining a positive attitude and providing exemplary customer service<\/li>\n<li>Ability to work independently and to carry out assignments to completion within parameters of instructions given, prescribed routines, and standard accepted practices<\/li>\n<\/ul>\n","employmentType":["FULL_TIME"],"hiringOrganization":{"@type":"Organization","name":"Fitbit","sameAs":"https:\/\/www.fitbit.com\/","url":"https:\/\/www.fitbit.com\/"},"identifier":{"@type":"PropertyValue","name":"Fitbit","value":"http:\/\/domain.com\/?post_type=job_listing&#038;p=6"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Mountain View","addressRegion":"CA","addressCountry":"US"}},"image":{"@type":"URL","@id":"https:\/\/jobify-demos.astoundify.com\/classic\/wp-content\/uploads\/sites\/2\/2016\/04\/company-logo-fitbit.jpg"},"industry":"Design, Developement"}</script><script id="tmpl-infoBubble" type="text/template">
+	<# if ( typeof( data.title ) != 'undefined') { #>
+		<a href="{{{ data.href }}}">{{{ data.title }}}</a>
+	<# } #>
+</script>
+<link rel='stylesheet' id='ninja-forms-display-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/ninja-forms/deprecated/css/ninja-forms-displayb58d.css?nf_ver=3.1.9&amp;ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-qtip-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/ninja-forms/deprecated/css/qtip7bcd.css?ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-rating-css'  href='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/ninja-forms/deprecated/css/jquery.rating7bcd.css?ver=4.8.3' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/classic\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/classic\/job\/user-experience-designer-lead-systems-analyst\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/jobify-demos.astoundify.com\/classic\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min0226.js?ver=3.1.2'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/classic\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/classic\/job\/user-experience-designer-lead-systems-analyst\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min0226.js?ver=3.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/classic\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/classic\/job\/user-experience-designer-lead-systems-analyst\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_2bb9786133480ac614c5ebea24f1db75"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min0226.js?ver=3.1.2'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/jquery/ui/slider.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/underscore.min4511.js?ver=1.8.3'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/backbone.min9632.js?ver=1.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/classic\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/wp-util.min7bcd.js?ver=4.8.3'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/wp-backbone.min7bcd.js?ver=4.8.3'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/wp-job-manager/assets/js/jquery-deserialize/jquery.deserialize1576.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var job_manager_chosen_multiselect_args = {"search_contains":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/wp-job-manager/assets/js/jquery-chosen/chosen.jquery.minf488.js?ver=1.1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var job_manager_ajax_filters = {"ajax_url":"\/classic\/jm-ajax\/%%endpoint%%\/","is_rtl":"0","i18n_load_prev_listings":"Load previous listings","lang":null};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/wp-job-manager/assets/js/ajax-filters.minab45.js?ver=1.28.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jobifySettings = {"ajaxurl":"https:\/\/jobify-demos.astoundify.com\/classic\/wp-admin\/admin-ajax.php","archiveurl":"https:\/\/jobify-demos.astoundify.com\/classic\/jobs\/","i18n":{"magnific":{"tClose":"Close","tLoading":"Loading...","tError":"The content could not be loaded."}},"pages":{"is_job":true,"is_resume":false,"is_testimonials":false},"widgets":{"jobify_widget_companies":{"autoPlay":false},"jobify_widget_testimonials":{"slidesToShow":4}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/themes/jobify/js/jobify.min09ef.js?ver=20170814'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jobifyMapSettings = {"useClusters":"1","overlayTitle":"%d Found","autoFit":"","trigger":"click","mapOptions":{"zoom":"3","maxZoom":17,"maxZoomOut":"5","gridSize":60,"scrollwheel":true,"center":["43.6532","-79.3832"]}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/themes/jobify/inc/integrations/wp-job-manager/js/map/app.minf100.js?ver=20150509'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/themes/jobify/js/vendor/salvattore/salvattore.min7bcd.js?ver=4.8.3'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/wp-job-manager-locations/assets/js/main442b.js?ver=20140525'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/wp-embed.min7bcd.js?ver=4.8.3'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/wp-job-manager/assets/js/job-application.minab45.js?ver=1.28.0'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/ninja-forms/deprecated/js/min/jquery.qtip.min7bcd.js?ver=4.8.3'></script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-includes/js/jquery/jquery.form.min018d.js?ver=3.37.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ninja_forms_settings = {"ajax_msg_format":"inline","password_mismatch":"The passwords provided do not match.","plugin_url":"https:\/\/jobify-demos.astoundify.com\/classic\/wp-content\/plugins\/ninja-forms\/deprecated\/","datepicker_args":{"dateFormat":"dd\/mm\/yy"},"currency_symbol":"$","date_format":"dd\/mm\/yy"};
+var thousandsSeparator = ",";
+var decimalPoint = ".";
+var ninja_forms_form_1_settings = {"ajax":"1","hide_complete":"1","clear_complete":"1"};
+var ninja_forms_form_1_calc_settings = {"calc_value":"","calc_fields":[]};
+var ninja_forms_password_strength = {"empty":"Strength indicator","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+var thousandsSeparator = ",";
+var decimalPoint = ".";
+var ninja_forms_form_1_settings = {"ajax":"1","hide_complete":"1","clear_complete":"1"};
+var ninja_forms_form_1_calc_settings = {"calc_value":"","calc_fields":[]};
+var ninja_forms_password_strength = {"empty":"Strength indicator","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/ninja-forms/deprecated/js/min/ninja-forms-display.minb58d.js?nf_ver=3.1.9&amp;ver=4.8.3'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e20a3d19de","applicationID":"17202079","transactionName":"NQBaN0JUCEMDBkRZCQxKeQBEXAleTRZZXgEOABUJX1c5XAsWRFkIBQ==","queueTime":0,"applicationTime":228,"atts":"GUdZQQpOG00=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from jobify-demos.astoundify.com/classic/job/user-experience-designer-lead-systems-analyst/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Nov 2017 10:03:11 GMT -->
+</html>

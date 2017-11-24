@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+jobify-demos.astoundify.com	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+jobify-demos.astoundify.com	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+jobify-demos.astoundify.com	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	d55c599ef0b72e92337fb13cd503abf0
+jobify-demos.astoundify.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_153bc88204d05e87fe63d48d64fc949e	0d7e1ffd508dd13c5ce74b3642a3b10f%7C%7C1511603985%7C%7C1511600385%7C%7C2bd8538a31cc60e1b81fa341e8c62c40
+

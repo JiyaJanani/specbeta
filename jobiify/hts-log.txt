@@ -1,0 +1,189 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 23 Nov 2017 15:26:55 at https://jobify-demos.astoundify.com/classic/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://jobify-demos.astoundify.com/classic/ -O1 "E:\spec\jobiify" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:27:34	Error: 	"Method Not Allowed" (405) at link https://jobify-demos.astoundify.com/classic/xmlrpc.php (from https://jobify-demos.astoundify.com/classic/)
+15:30:00	Warning: 	Found for https://jobify-demos.astoundify.com/classic/checkout/
+15:30:00	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/checkout/ to https://jobify-demos.astoundify.com/classic/cart/
+15:32:27	Warning: 	Retry after error -4 (No data (connection closed)) at link https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/blog-image-345-400x200.jpg (from https://jobify-demos.astoundify.com/classic/)
+15:32:35	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://17314-presscdn-0-16-pagely.netdna-ssl.com/robots.txt (from https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/themes/jobify/style.css?ver=20170821)
+15:32:35	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3940
+15:32:35	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3940 to https://jobify-demos.astoundify.com/classic/find-a-job/
+15:33:14	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=14
+15:33:14	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=14 to https://jobify-demos.astoundify.com/classic/post-a-job/
+15:33:14	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=99991283
+15:33:14	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=99991283 to https://jobify-demos.astoundify.com/classic/pricing/
+15:33:14	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=2064
+15:33:14	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=2064 to https://jobify-demos.astoundify.com/classic/companies/
+15:33:15	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1948
+15:33:15	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1948 to https://jobify-demos.astoundify.com/classic/frequently-asked-questions/
+15:33:15	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1931
+15:33:15	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1931 to https://jobify-demos.astoundify.com/classic/manage-jobs/
+15:33:17	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1762
+15:33:17	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1762 to https://jobify-demos.astoundify.com/classic/privacy-policy/
+15:33:17	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1760
+15:33:17	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1760 to https://jobify-demos.astoundify.com/classic/terms-and-conditions/
+15:39:19	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=2452
+15:39:19	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=2452 to https://jobify-demos.astoundify.com/classic/cart/
+15:39:19	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1673
+15:39:19	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1673 to https://jobify-demos.astoundify.com/classic/signup/
+15:39:19	Warning: 	Retry after error -4 (No data (connection closed)) at link 17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=3.1.2 (from https://jobify-demos.astoundify.com/classic/signup/)
+15:39:19	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=2454
+15:39:19	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=2454 to https://jobify-demos.astoundify.com/classic/my-account/
+15:39:20	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3354
+15:39:20	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3354 to https://jobify-demos.astoundify.com/classic/job/art-director-2/
+15:39:20	Warning: 	Retry after error -4 (No data (connection closed)) at link https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2014/03/hero-job-image.jpg (from https://jobify-demos.astoundify.com/classic/job/art-director-2/)
+15:39:24	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3350
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3350 to https://jobify-demos.astoundify.com/classic/job/squarespace-com/
+15:39:24	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3348
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3348 to https://jobify-demos.astoundify.com/classic/job/web-developer/
+15:39:24	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3346
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3346 to https://jobify-demos.astoundify.com/classic/job/marketing-director/
+15:39:24	Warning: 	Retry after error -4 (No data (connection closed)) at link https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2014/03/company-logo-okcupid.jpg (from https://jobify-demos.astoundify.com/classic/job/marketing-director/)
+15:39:24	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3344
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3344 to https://jobify-demos.astoundify.com/classic/job/website-designer/
+15:39:24	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3342
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3342 to https://jobify-demos.astoundify.com/classic/job/front-end-developer-digital-arts/
+15:39:24	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1863
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1863 to https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/
+15:39:24	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=twitter
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=twitter to https://twitter.com/intent/tweet?text=The%20Best%20%28and%20Worst%29%20Canadian%20Merchant%20Account%20Providers&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F03%2F29%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4%2F
+15:39:24	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=facebook
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F03%2F29%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4%2F&t=The%20Best%20%28and%20Worst%29%20Canadian%20Merchant%20Account%20Providers
+15:39:24	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=google-plus-1
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F03%2F29%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4%2F
+15:39:24	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=linkedin
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F03%2F29%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4%2F
+15:39:24	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=email
+15:39:24	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?share=email to https://jobify-demos.astoundify.com/classic/2016/03/29/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-4/?shared=email&msg=fail
+15:39:25	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1799
+15:39:25	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1799 to https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/
+15:39:25	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=twitter
+15:39:25	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=twitter to https://twitter.com/intent/tweet?text=Do%20you%20have%20a%20job%20that%20the%20average%20person%20doesn%27t%20even%20know%20exists%3F&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F03%2F22%2Fdo-you-have-a-job-that-the-average-person-doesnt-even-know-exists%2F
+15:39:25	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=facebook
+15:39:25	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F03%2F22%2Fdo-you-have-a-job-that-the-average-person-doesnt-even-know-exists%2F&t=Do%20you%20have%20a%20job%20that%20the%20average%20person%20doesn%27t%20even%20know%20exists%3F
+15:39:25	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=google-plus-1
+15:39:25	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F03%2F22%2Fdo-you-have-a-job-that-the-average-person-doesnt-even-know-exists%2F
+15:39:25	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=linkedin
+15:39:25	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F03%2F22%2Fdo-you-have-a-job-that-the-average-person-doesnt-even-know-exists%2F
+15:39:25	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=email
+15:39:25	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?share=email to https://jobify-demos.astoundify.com/classic/2016/03/22/do-you-have-a-job-that-the-average-person-doesnt-even-know-exists/?shared=email&msg=fail
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1865
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1865 to https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/
+15:40:30	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=twitter
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=twitter to https://twitter.com/intent/tweet?text=DigitalOcean%20launches%20first%20Canadian%20data%20centre%20in%20Toronto&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F02%2F22%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2%2F
+15:40:30	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=facebook
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F02%2F22%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2%2F&t=DigitalOcean%20launches%20first%20Canadian%20data%20centre%20in%20Toronto
+15:40:30	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=google-plus-1
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F02%2F22%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2%2F
+15:40:30	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=linkedin
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F02%2F22%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2%2F
+15:40:30	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=email
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?share=email to https://jobify-demos.astoundify.com/classic/2016/02/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs-2/?shared=email&msg=fail
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=99991207
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=99991207 to https://jobify-demos.astoundify.com/classic/account/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=2
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=2 to https://jobify-demos.astoundify.com/classic/sample-page/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3340
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3340 to https://jobify-demos.astoundify.com/classic/job/senior-ux-designer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3352
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3352 to https://jobify-demos.astoundify.com/classic/job/ui-web-designer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3364
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3364 to https://jobify-demos.astoundify.com/classic/job/graphicweb-designer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3362
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3362 to https://jobify-demos.astoundify.com/classic/job/graphic-designer-4/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3360
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3360 to https://jobify-demos.astoundify.com/classic/job/web-designer-front-end-developer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3358
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3358 to https://jobify-demos.astoundify.com/classic/job/interactive-designer-2/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3356
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3356 to https://jobify-demos.astoundify.com/classic/job/graphic-designer-3/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1728
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1728 to https://jobify-demos.astoundify.com/classic/job/graphic-designer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=9
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=9 to https://jobify-demos.astoundify.com/classic/job/design-technologist-shopping-innovation/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1721
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1721 to https://jobify-demos.astoundify.com/classic/job/product-designer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1726
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1726 to https://jobify-demos.astoundify.com/classic/job/senior-designer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=8
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=8 to https://jobify-demos.astoundify.com/classic/job/front-end-engineer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3252
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3252 to https://jobify-demos.astoundify.com/classic/job/api-engineer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=7
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=7 to https://jobify-demos.astoundify.com/classic/job/user-experience-designer-lead-systems-analyst/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3246
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3246 to https://jobify-demos.astoundify.com/classic/job/web-designer-developer/
+15:40:30	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=3249
+15:40:30	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=3249 to https://jobify-demos.astoundify.com/classic/job/ux-designer/
+15:40:34	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1862
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1862 to https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=twitter
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=twitter to https://twitter.com/intent/tweet?text=Outsourcing%20vs.%20In-House%20Digital%20Marketing%3A%20Choosing%20What%20is%20Best%20for%20a%20Small%20Business&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F06%2Fcanada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=facebook
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F06%2Fcanada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign%2F&t=Outsourcing%20vs.%20In-House%20Digital%20Marketing%3A%20Choosing%20What%20is%20Best%20for%20a%20Small%20Business
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=google-plus-1
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F06%2Fcanada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=linkedin
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F06%2Fcanada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=email
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?share=email to https://jobify-demos.astoundify.com/classic/2016/01/06/canada-adds-12500-jobs-in-modest-july-rebound-which-is-a-good-sign/?shared=email&msg=fail
+15:40:34	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1767
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1767 to https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=twitter
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=twitter to https://twitter.com/intent/tweet?text=Canada%20adds%2012%2C500%20jobs%20in%20modest%20July%20rebound&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F02%2Fcanada-adds-12500-jobs-in-modest-july-rebound%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=facebook
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F02%2Fcanada-adds-12500-jobs-in-modest-july-rebound%2F&t=Canada%20adds%2012%2C500%20jobs%20in%20modest%20July%20rebound
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=google-plus-1
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F02%2Fcanada-adds-12500-jobs-in-modest-july-rebound%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=linkedin
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F02%2Fcanada-adds-12500-jobs-in-modest-july-rebound%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=email
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?share=email to https://jobify-demos.astoundify.com/classic/2016/01/02/canada-adds-12500-jobs-in-modest-july-rebound/?shared=email&msg=fail
+15:40:34	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1864
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1864 to https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=twitter
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=twitter to https://twitter.com/intent/tweet?text=Canadian%20Video%20Game%20Production%20Soars%2050%25%20In%20One%20Year%2C%20And%20Is%20Catching%20Up%20To%20Film%2C%20TV&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F01%2Ffitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=facebook
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F01%2Ffitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland%2F&t=Canadian%20Video%20Game%20Production%20Soars%2050%25%20In%20One%20Year%2C%20And%20Is%20Catching%20Up%20To%20Film%2C%20TV
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=google-plus-1
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F01%2Ffitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=linkedin
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2016%2F01%2F01%2Ffitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland%2F
+15:40:34	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=email
+15:40:34	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?share=email to https://jobify-demos.astoundify.com/classic/2016/01/01/fitness-industry-leading-the-charge-on-hiring-in-the-uk-and-ireland/?shared=email&msg=fail
+15:40:35	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=1866
+15:40:35	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=1866 to https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/
+15:40:35	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=twitter
+15:40:35	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=twitter to https://twitter.com/intent/tweet?text=Canada%27s%20six%20biggest%20banks%20earned%20a%20combined%20%249.2%20billion%20in%20Q3&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2013%2F07%2F22%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs%2F
+15:40:35	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=facebook
+15:40:35	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2013%2F07%2F22%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs%2F&t=Canada%27s%20six%20biggest%20banks%20earned%20a%20combined%20%249.2%20billion%20in%20Q3
+15:40:35	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=google-plus-1
+15:40:35	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=google-plus-1 to https://plus.google.com/share?url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2013%2F07%2F22%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs%2F
+15:40:35	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=linkedin
+15:40:35	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=linkedin to https://www.linkedin.com/cws/share?token&isFramed=false&url=https%3A%2F%2Fjobify-demos.astoundify.com%2Fclassic%2F2013%2F07%2F22%2Fmiddle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs%2F
+15:40:35	Warning: 	Found for https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=email
+15:40:35	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?share=email to https://jobify-demos.astoundify.com/classic/2013/07/22/middle-class-jobs-are-being-replaced-by-burger-flipping-retail-sales-low-pay-jobs/?shared=email&msg=fail
+15:41:42	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=99991341
+15:41:42	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=99991341 to https://jobify-demos.astoundify.com/classic/product/jobify-coffee/
+15:42:49	Warning: 	Retry after error -4 (No data (connection closed)) at link 17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.15 (from https://jobify-demos.astoundify.com/classic/product/jobify-coffee/)
+15:42:50	Warning: 	Retry after error -4 (No data (connection closed)) at link 17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.6.1 (from https://jobify-demos.astoundify.com/classic/product/jobify-coffee/)
+15:42:50	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=99991344
+15:42:50	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=99991344 to https://jobify-demos.astoundify.com/classic/product/jobify-gin/
+15:42:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/uploads/sites/2/2016/04/Jobify-Bottle.jpg (from https://jobify-demos.astoundify.com/classic/product/jobify-gin/)
+15:42:53	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=99991339
+15:42:53	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=99991339 to https://jobify-demos.astoundify.com/classic/product/jobify-mug/
+15:44:00	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=99991337
+15:44:00	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=99991337 to https://jobify-demos.astoundify.com/classic/product/jobify-note-book/
+15:46:11	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=99991328
+15:46:11	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=99991328 to https://jobify-demos.astoundify.com/classic/product/jobify-tee-white/
+15:46:14	Warning: 	Moved Permanently for https://jobify-demos.astoundify.com/classic/?p=99991326
+15:46:14	Warning: 	File has moved from https://jobify-demos.astoundify.com/classic/?p=99991326 to https://jobify-demos.astoundify.com/classic/product/jobify-tote-bag/
+15:47:18	Warning: 	Retry after error -4 (No data (connection closed)) at link 17314-presscdn-0-16-pagely.netdna-ssl.com/classic/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=3.1.2 (from https://jobify-demos.astoundify.com/classic/signup/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 22 minutes 39 seconds : 559 links scanned, 464 files written (15617087 bytes overall) [8401833 bytes received at 6182 bytes/sec], 10252487 bytes transferred using HTTP compression in 360 files, ratio 25%, 2.7 requests per connection
+(2 errors, 176 warnings, 0 messages)
